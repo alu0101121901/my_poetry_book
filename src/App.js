@@ -1,12 +1,19 @@
+import React, { useState } from 'react';
+
 import './App.css';
 import Header from './components/header';
+import PoetryScreen from './components/poetry_screen'
 
-function App() {
+const App = () => {
+
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
   return (
     <div className="App">
       <header className="App-header">
         <Header />
       </header>
+      <PoetryScreen />
     </div>
   );
 }
