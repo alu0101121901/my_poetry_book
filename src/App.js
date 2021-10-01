@@ -14,6 +14,7 @@ const App = () => {
         <Header />
       </header>
       <PoetryScreen />
+      {/* <Footer /> */}
     </div>
   );
 }

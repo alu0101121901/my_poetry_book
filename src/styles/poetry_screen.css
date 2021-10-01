@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
+
+.poetrys h1 {
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.poetrys p {
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-size: 24px;
+  line-height: 20px;
+}
+
+.like-button {
+  margin-top: 16px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.ico {
+  fill: #232323;
+}
+
+.liked {
+  transform: scale(1.01) rotate(360deg);
+  fill: #C62828;
+
+}
