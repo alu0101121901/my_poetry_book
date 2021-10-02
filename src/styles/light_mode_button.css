@@ -1,0 +1,50 @@
+
+.sticky-button{
+  position: fixed;
+  left: 10px;
+}
+
+.dark:hover {
+  background: #CBA92B;
+  color: black;
+}
+
+.light:hover {
+  background: #1f201f;
+  color: white;
+}
+
+.retro{
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  user-select: none;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-size: 14px;
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 400;
+  border: 3px solid black!important;
+  border-radius: 0;
+  box-shadow: 3px 3px black, 5px 5px white;
+  padding-right: 5%;
+  margin-top: 20px;
+}
+
+.retro:active{
+  background-color: white!important;
+  color: black!important;
+  box-shadow: 0px 0px white;
+  transform: translateX(5px) translateY(2px); 
+}
+
+.rbtn-small{
+  box-shadow: 2px 2px black, 4px 4px white;
+  padding:10px;
+}
+
+.rbtn-big{
+  box-shadow: 2px 2px black, 3px 3px white;
+  padding: 20px;
+}
