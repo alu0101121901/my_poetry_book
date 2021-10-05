@@ -3,6 +3,7 @@ import React from 'react'
 import './App.css'
 import Header from './components/header'
 import PoetryScreen from './components/poetry_screen'
+import Footer from './components/footer'
 
 const App = () => {
   return (
@@ -10,9 +11,10 @@ const App = () => {
       <header className="App-header">
         <Header />
       </header>
-      { /* Modificar tamaño de la letra */}
       <PoetryScreen />
-      {/* <Footer /> */}
+      <footer>
+        <Footer />
+      </footer>
     </div>
   )
 }

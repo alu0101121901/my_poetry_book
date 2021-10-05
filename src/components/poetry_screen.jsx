@@ -20,26 +20,27 @@ const PoetryScreen = () => {
     getAll().then((poetrys) => {
       setPoetryArray(poetrys)
       // Smooth loading animation
-      setTimeout(() => { setLoading(false) }, 1100)
+      setTimeout(() => {
+        setLoading(false)
+      }, 1100)
     })
   }, [])
 
   return (
-    <Container>
-      {loading
-        ? <div id='barcontainer'>
-          <div id='meter'><p style={{ marginTop: 8 }} >Cargando...</p></div>
+    <Container style={{ paddingBottom: 88 }}>
+      {loading ? (
+        <div id="barcontainer">
+          <div id="meter">
+            <p style={{ marginTop: 8 }}>Cargando...</p>
+          </div>
         </div>
-        : <Row>
-          {
-            poetryArray.map((poetry, index) => {
-              return (
-                <Poetry info={poetry} key={index} />
-              )
-            })
-          }
+      ) : (
+        <Row>
+          {poetryArray.map((poetry, index) => {
+            return <Poetry info={poetry} key={index} />
+          })}
         </Row>
-        }
+      )}
     </Container>
   )
 }

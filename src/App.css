@@ -4,10 +4,10 @@
 
 .App-header {
   /* Motted glassed effect */
-  background: rgba(245,245,245,.5);
+  background: rgba(245, 245, 245, 0.5);
   position: sticky;
   top: 0;
-  z-index: 1.;
+  z-index: 1;
   height: 15vh;
   display: flex;
   justify-content: center;
@@ -15,7 +15,8 @@
   color: black;
 }
 
-.App-header::before, .App-header::after {
+.App-header::before,
+.App-header::after {
   content: '';
   left: 0px;
   height: 100%;
