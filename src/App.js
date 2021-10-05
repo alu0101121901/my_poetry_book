@@ -1,12 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react'
 
-import './App.css';
-import Header from './components/header';
-import PoetryScreen from './components/poetry_screen';
-import LightModeButton from './components/light_mode_button';
+import './App.css'
+import Header from './components/header'
+import PoetryScreen from './components/poetry_screen'
 
 const App = () => {
-
   return (
     <div className="App">
       <header className="App-header">
@@ -16,7 +14,7 @@ const App = () => {
       <PoetryScreen />
       {/* <Footer /> */}
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

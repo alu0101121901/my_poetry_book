@@ -12,8 +12,8 @@
   border-right: 5px solid white;
   background-color: #111;
   box-shadow: 0 0 20px #111;
-  transition: width 0.5s;
-  animation: loading 1.7s ease-out;
+  transition: width 0.8s;
+  animation: loading 1.7s ease-out infinite;
 }
 
 @keyframes loading{
