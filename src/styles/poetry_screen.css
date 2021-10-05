@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
 
-#barcontainer{
+#barcontainer {
   width: 300px;
   margin: 200px auto;
 }
 
-#meter{
+#meter {
   position: absolute;
   width: 0px;
   height: 1px;
@@ -16,11 +16,12 @@
   animation: loading 1.7s ease-out infinite;
 }
 
-@keyframes loading{
-  0%{
-    width: 0px;}
+@keyframes loading {
+  0% {
+    width: 0px;
+  }
 
-  100%{
+  100% {
     opacity: 0.05;
     width: 300px;
   }
@@ -32,8 +33,7 @@
 }
 
 .poetrys p {
-  
-  font-size: 22px;
+  font-size: 20px;
   line-height: 19px;
 }
 
@@ -41,7 +41,7 @@
   margin-top: 16px;
   border-radius: 50%;
   cursor: pointer;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .ico {
@@ -50,7 +50,7 @@
 
 .liked {
   transform: scale(1.01) rotate(360deg);
-  fill: #AF2413;
+  fill: #af2413;
 }
 
 .fade-in-text {
@@ -62,6 +62,10 @@
 }
 
 @keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
