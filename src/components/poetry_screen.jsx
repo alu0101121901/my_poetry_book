@@ -4,7 +4,6 @@ import React, { useEffect, useState } from 'react'
 
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
-// import Col from 'react-bootstrap/Col'
 import Poetry from './poetry'
 import { getAll } from '../services/poetrys'
 
@@ -27,7 +26,7 @@ const PoetryScreen = () => {
   }, [])
 
   return (
-    <Container style={{ paddingBottom: 88 }}>
+    <Container className="poetrys-container">
       {loading ? (
         <div id="barcontainer">
           <div id="meter">

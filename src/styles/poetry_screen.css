@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
 
+.poetrys-container {
+  padding-bottom: 88px;
+}
+
 #barcontainer {
   width: 300px;
   margin: 200px auto;

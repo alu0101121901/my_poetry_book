@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-.footer {
+footer {
   font-family: 'Montserrat', sans-serif;
   position: fixed;
   line-height: 28px;
@@ -11,11 +11,15 @@
   padding: 1.25rem;
 }
 
-.footer {
+.not-scrolled {
   background-color: #efefef;
 }
 
-.footer {
+.scrolled {
+  background-color: whitesmoke;
+}
+
+footer {
   text-align: center;
 }
 
