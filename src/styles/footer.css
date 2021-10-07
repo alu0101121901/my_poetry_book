@@ -13,9 +13,11 @@ footer {
 
 .not-scrolled {
   background-color: #efefef;
+  transition: background-color 1.5s ease;
 }
 
 .scrolled {
+  transition: background-color 1.5s ease;
   background-color: whitesmoke;
 }
 

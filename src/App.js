@@ -11,17 +11,11 @@ const App = () => {
 
   useEffect(() => {
     const onScroll = (e) => {
-      console.log(e.target.documentElement.scrollTop)
-      console.log(
-        e.target.documentElement.scrollHeight -
-          e.target.documentElement.clientHeight
-      )
-      setScrollTop(e.target.documentElement.scrollTop)
       setScrolling(
         e.target.documentElement.scrollTop >=
           e.target.documentElement.scrollHeight -
             e.target.documentElement.clientHeight -
-            100
+            80
       )
     }
     window.addEventListener('scroll', onScroll)
