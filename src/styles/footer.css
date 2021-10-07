@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
 footer {
-  font-family: 'Montserrat', sans-serif;
   position: fixed;
   line-height: 28px;
   margin-bottom: 0;
@@ -9,6 +6,10 @@ footer {
   bottom: 0;
   left: 0;
   padding: 1.25rem;
+}
+
+footer {
+  text-align: center;
 }
 
 .not-scrolled {
@@ -19,10 +20,6 @@ footer {
 .scrolled {
   transition: background-color 1s ease;
   background-color: whitesmoke;
-}
-
-footer {
-  text-align: center;
 }
 
 .profile {
